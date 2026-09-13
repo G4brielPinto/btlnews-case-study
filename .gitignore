@@ -1,0 +1,29 @@
+# Never version datasets, database exports or environment configuration
+.env
+.env.*
+*.env
+data/
+datasets/
+backups/
+dumps/
+*.sql
+*.sqlite
+*.db
+*.csv
+*.jsonl
+*.parquet
+*.pkl
+*.joblib
+
+# Generated or local development artefacts
+media/
+uploads/
+outputs/
+logs/
+__pycache__/
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
